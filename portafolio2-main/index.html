@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio llamativo de Kevin Santiago Pinto Monsalve, desarrollador junior.">
+  <title>Kevin Pinto | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="noise"></div>
+
+  <header class="header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand">Kevin<span>.</span></a>
+      <nav id="mainNav" class="nav">
+        <a href="#inicio" data-i18n="nav_inicio">Inicio</a>
+        <a href="#sobre-mi" data-i18n="nav_sobre_mi">Sobre mi</a>
+        <a href="#proyectos" data-i18n="nav_proyectos">Proyectos</a>
+        <a href="#skills">Skills</a>
+        <a href="#contacto" data-i18n="nav_contacto">Contacto</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="langToggle" class="lang-btn" aria-label="Cambiar idioma">EN</button>
+        <button id="menuBtn" class="menu-btn" aria-label="Abrir menu" data-i18n="menu_btn">Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hero_eyebrow">Disponible para practicas y proyectos freelance</p>
+          <h1><span id="greetingText" data-i18n="hero_greeting">Hola, soy</span> <span class="name-highlight">Kevin Santiago</span></h1>
+          <p id="typingText" class="typing"></p>
+          <p class="hero-desc" data-i18n="hero_desc">
+            Construyo experiencias web rapidas, modernas y bien cuidadas, combinando logica de programacion y diseno visual.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos" data-i18n="hero_cta">Ver proyectos</a>
+            <a class="btn btn-ghost" target="_blank" href="https://github.com/Ksanti-monsalve">GitHub</a>
+            <a class="btn btn-ghost" target="_blank" href="https://www.linkedin.com/in/santi24/">LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-card reveal">
+          <img src="assets/kevin.jpg" alt="Foto de Kevin Santiago">
+          <div class="hero-card-info">
+            <h2 data-i18n="hero_role">Desarrollador Junior</h2>
+            <p>Bucaramanga, Colombia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre-mi">
+      <div class="container about-grid">
+        <article class="panel reveal about-main-center">
+          <h2 data-i18n="about_title">Sobre mi</h2>
+          <p data-i18n="about_p1">
+            Soy desarrollador en formacion con enfoque en frontend y bases solidas de programacion. Me caracteriza la
+            disciplina, la atencion al detalle y la capacidad para aprender rapido.
+          </p>
+          <p data-i18n="about_p2">
+            Tambien cuento con experiencia tecnica en el area electrica, lo que me ha dado una forma estructurada de resolver problemas.
+          </p>
+        </article>
+        <article class="panel reveal">
+          <h2 data-i18n="skills_title">Competencias</h2>
+          <ul class="pill-list">
+            <li data-i18n="skill_1">Liderazgo y trabajo en equipo</li>
+            <li data-i18n="skill_2">Comunicacion con cliente</li>
+            <li data-i18n="skill_3">Buenas practicas de codigo</li>
+            <li data-i18n="skill_4">Adaptacion rapida a nuevos retos</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-showcase" id="proyectos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="projects-kicker" data-i18n="projects_kicker">Seleccion principal</p>
+          <h2 data-i18n="projects_title">Proyectos destacados</h2>
+          <p data-i18n="projects_desc">Una seleccion de trabajos que muestran mi proceso, codigo y resultados.</p>
+        </div>
+        <div class="cards-grid">
+          <article class="project-card reveal">
+            <span class="tag">C# / JSON</span>
+            <h3>Liga Betplay</h3>
+            <p data-i18n="project_1_desc">Simulador de torneo con logica de clasificacion, gestion de partidos y persistencia de datos.</p>
+            <a target="_blank" href="https://github.com/Ksanti-monsalve/liga-Betplay" data-i18n="project_link">Ver repositorio</a>
+          </article>
+          <article class="project-card reveal">
+            <span class="tag">C# / Fundamentos</span>
+            <h3>Taller Guiado</h3>
+            <p data-i18n="project_2_desc">Proyecto practico para reforzar estructuras de codigo, modularidad y pensamiento algoritmico.</p>
+            <a target="_blank" href="https://github.com/Ksanti-monsalve/Tallerguiado" data-i18n="project_link">Ver repositorio</a>
+          </article>
+          <article class="project-card reveal">
+            <span class="tag">HTML / CSS</span>
+            <h3>Hotel El Rincon del Carmen</h3>
+            <p data-i18n="project_3_desc">Sitio web responsivo con enfoque en experiencia visual, jerarquia de informacion y conversion.</p>
+            <a target="_blank" href="https://github.com/Ksanti-monsalve/Hotel-el-Rinc-n-del-Carmen-main" data-i18n="project_link">Ver repositorio</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container skills-grid">
+        <article class="panel reveal">
+          <h2>Stack</h2>
+          <div class="chips">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>C#</span><span>Git</span><span>MySQL</span>
+          </div>
+        </article>
+        <article class="panel reveal">
+          <h2 data-i18n="edu_title">Formacion</h2>
+          <ul class="timeline">
+            <li data-i18n="edu_1"><strong>Campuslands</strong> - Formacion en desarrollo (2025)</li>
+            <li data-i18n="edu_2"><strong>SENA</strong> - Tecnico electricista (2020 - 2021)</li>
+            <li data-i18n="edu_3"><strong>Damazo Zapata</strong> - Bachiller (2021)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container contact-grid">
+        <article class="panel reveal contact-highlight">
+          <p class="contact-kicker" data-i18n="contact_kicker">Contacto directo</p>
+          <h2 data-i18n="contact_title">Hablemos</h2>
+          <p class="contact-intro" data-i18n="contact_intro">Si tienes una idea o quieres colaborar, escribeme y te respondo pronto.</p>
+          <ul class="contact-list contact-cards">
+            <li class="contact-card-item">
+              <span class="contact-icon">✉</span>
+              <div>
+                <p class="contact-label">Email</p>
+                <a href="mailto:kevinsantiagopinto@gmail.com">kevinsantiagopinto@gmail.com</a>
+              </div>
+            </li>
+            <li class="contact-card-item">
+              <span class="contact-icon">☎</span>
+              <div>
+                <p class="contact-label" data-i18n="contact_phone">Telefono</p>
+                <a href="tel:+573001234567">+57 300 123 4567</a>
+              </div>
+            </li>
+            <li class="contact-card-item">
+              <span class="contact-icon">⌖</span>
+              <div>
+                <p class="contact-label" data-i18n="contact_location">Ubicacion</p>
+                <p>Bucaramanga, Colombia</p>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <form class="panel reveal contact-form" onsubmit="return false;">
+          <h2 data-i18n="form_title">Mensaje rapido</h2>
+          <label><span data-i18n="form_name">Nombre</span> <input id="name" type="text" placeholder="Tu nombre" data-i18n-placeholder="form_name_ph"></label>
+          <label><span data-i18n="form_email">Correo</span> <input id="email" type="email" placeholder="tu@email.com" data-i18n-placeholder="form_email_ph"></label>
+          <label><span data-i18n="form_message">Mensaje</span> <textarea id="message" rows="5" placeholder="Cuentame sobre tu proyecto" data-i18n-placeholder="form_message_ph"></textarea></label>
+          <button id="sendBtn" class="btn btn-primary" type="submit" data-i18n="form_send">Enviar por email</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Kevin Santiago Pinto Monsalve. <span data-i18n="footer_rights">Todos los derechos reservados.</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
