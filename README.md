@@ -91,7 +91,7 @@ El proyecto fue publicado utilizando Netlify.
 
 🔗 Link del Proyecto
 
-https://TU-PROYECTO.netlify.app/
+https://eclectic-frangipane-348eb5.netlify.app/
 
 ⸻
 
