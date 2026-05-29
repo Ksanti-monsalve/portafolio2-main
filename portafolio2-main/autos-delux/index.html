@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Autos Delux — concesionario de vehiculos de lujo. Catalogo premium, asesoria personalizada y entrega VIP.">
+  <title>Autos Delux | Vehiculos de lujo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container nav-wrap">
+      <a href="#inicio" class="brand">Autos <span>Delux</span></a>
+      <nav class="nav" id="mainNav">
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catalogo</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu">Menu</button>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80"
+        alt="Deportivo de lujo en carretera al atardecer"
+        width="1920"
+        height="1080"
+      >
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">Concesionario premium · Bucaramanga</p>
+      <h1>La excelencia<br>tiene motor</h1>
+      <p>Seleccion curada de vehiculos de alta gama. Inspeccion certificada, historial verificado y experiencia de compra a la altura de tu estilo de vida.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#catalogo">Explorar catalogo</a>
+        <a class="btn btn-ghost" href="#contacto">Agendar visita</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <strong>120+</strong>
+          <span>Vehiculos entregados</span>
+        </div>
+        <div class="stat">
+          <strong>18</strong>
+          <span>Marcas premium</span>
+        </div>
+        <div class="stat">
+          <strong>4.9</strong>
+          <span>Valoracion clientes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="catalogo">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Inventario exclusivo</p>
+        <h2>Catalogo destacado</h2>
+        <p>Modelos reales de referencia con especificaciones tecnicas, filtros por categoria y ficha detallada interactiva.</p>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="catalog-grid" id="catalogGrid"></div>
+      <p class="empty-state" id="emptyState">No hay vehiculos en esta categoria por ahora.</p>
+    </div>
+  </section>
+
+  <section class="section" id="experiencia">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Servicio integral</p>
+        <h2>Experiencia Delux</h2>
+        <p>Mas que una compra: un proceso disenado para quienes exigen calidad en cada detalle.</p>
+      </div>
+      <div class="experience-grid">
+        <article class="exp-card reveal">
+          <div class="exp-icon">◇</div>
+          <h3>Inspeccion 120 puntos</h3>
+          <p>Revision mecanica, electronica y estetica por tecnicos certificados antes de cada entrega.</p>
+        </article>
+        <article class="exp-card reveal">
+          <div class="exp-icon">◆</div>
+          <h3>Financiacion a medida</h3>
+          <p>Planes desde 12 hasta 72 meses con tasas preferenciales para clientes premium.</p>
+        </article>
+        <article class="exp-card reveal">
+          <div class="exp-icon">○</div>
+          <h3>Entrega concierge</h3>
+          <p>Prueba de manejo privada, detailing profesional y entrega en domicilio o aeropuerto.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="nosotros">
+    <div class="container about-grid">
+      <div class="about-image reveal">
+        <img
+          src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1000&q=80"
+          alt="Showroom de autos de lujo"
+          width="1000"
+          height="750"
+          loading="lazy"
+        >
+      </div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">Nuestra historia</p>
+        <h2>Pasion por la ingenieria y el diseno</h2>
+        <p>Autos Delux nacio en 2018 con la vision de acercar el mercado internacional de vehiculos premium a compradores exigentes en Colombia.</p>
+        <p>Cada unidad pasa por un proceso de homologacion, verificacion de kilometraje y documentacion legal antes de integrarse a nuestro inventario.</p>
+        <ul class="about-list">
+          <li>Historial CARFAX y verificacion de procedencia</li>
+          <li>Garantia mecanica de 12 meses incluida</li>
+          <li>Asesoria para importacion y tramites</li>
+          <li>Red de talleres aliados en todo el pais</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Testimonios</p>
+        <h2>Lo que dicen nuestros clientes</h2>
+      </div>
+      <div class="testimonials">
+        <blockquote class="testimonial reveal">
+          <div class="stars">★★★★★</div>
+          <p>"La atencion fue impecable desde la cotizacion hasta la entrega de mi AMG. Transparencia total en precios y documentos."</p>
+          <cite>— Andres M., empresario</cite>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Compre un Taycan con ellos. El proceso de financiacion fue rapido y la prueba de manejo en circuito cerrado fue increible."</p>
+          <cite>— Laura P., directora financiera</cite>
+        </blockquote>
+        <blockquote class="testimonial reveal">
+          <div class="stars">★★★★☆</div>
+          <p>"Excelente curaduria de inventario. Encontre un Range Rover Sport en perfecto estado, mejor de lo que esperaba."</p>
+          <cite>— Carlos R., medico</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contacto">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>Agenda tu visita</h2>
+        <p>Completa el formulario y un asesor especializado te contactara en menos de 24 horas.</p>
+        <ul class="contact-details">
+          <li>
+            <strong>Ubicacion</strong>
+            Bucaramanga, Santander — Showroom premium
+          </li>
+          <li>
+            <strong>Telefono</strong>
+            +57 300 123 4567
+          </li>
+          <li>
+            <strong>Horario</strong>
+            Lun – Sab · 9:00 a.m. – 7:00 p.m.
+          </li>
+          <li>
+            <strong>Email</strong>
+            contacto@autosdelux.com
+          </li>
+        </ul>
+      </div>
+      <form class="contact-form reveal" id="contactForm">
+        <div class="field">
+          <label for="name">Nombre completo</label>
+          <input id="name" name="name" type="text" placeholder="Tu nombre" required>
+        </div>
+        <div class="field">
+          <label for="email">Correo electronico</label>
+          <input id="email" name="email" type="email" placeholder="tu@email.com" required>
+        </div>
+        <div class="field">
+          <label for="model">Modelo de interes</label>
+          <select id="model" name="model">
+            <option value="">Selecciona un vehiculo</option>
+            <option>Mercedes-AMG GT 63 S</option>
+            <option>BMW Serie 7 760i xDrive</option>
+            <option>Range Rover Sport Autobiography</option>
+            <option>Porsche Taycan Turbo S</option>
+            <option>Audi RS e-tron GT</option>
+            <option>Lamborghini Huracan EVO</option>
+            <option>Otro / Aun no lo se</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="4" placeholder="Cuentanos que buscas: presupuesto, uso, financiacion..."></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar solicitud</button>
+        <p class="form-msg" id="formMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Autos Delux — Vehiculos de alta gama. Proyecto web desarrollado con HTML, CSS y JavaScript.</p>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal" id="modalContent" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

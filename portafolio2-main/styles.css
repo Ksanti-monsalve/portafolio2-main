@@ -241,8 +241,9 @@ h1 .name-highlight {
 
 .hero-card img {
   width: 100%;
-  aspect-ratio: 4 / 4;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
+  object-position: center 15%;
 }
 
 .hero-card-info {
